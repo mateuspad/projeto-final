@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #F4F4F4;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#login{
+    align-items: stretch;
+    background-image: url(imgs/background1.png), url(imgs/background2.png);
+    background-size: cover, cover;
+    background-position: center top, center top;
+    background-repeat: no-repeat;
+}
+
+#container{
+
+    max-width: 433px;
+    max-height: 446px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #70707040;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+#container img{
+    width: 6rem;
+    margin-top: 20px;
+    margin-left: auto;
+    max-width: 120px;
+    max-height: 48px;
+}
+
+#container form{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#container input{
+    background-color: #F1F3F5;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 95%;
+    border: 0px;
+    padding: 0 3% 0 3%;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+#login-email{
+    background-image: url(imgs/email1.png);
+    background-position: 95%;
+    background-repeat: no-repeat;
+}
+
+#login-senha{
+    background-image: url(imgs/cadeado1.png);
+    background-position: 95%;
+    background-repeat: no-repeat;
+}
+
+#login-esqueci-senha{
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Roboto";
+    letter-spacing: 0px;
+    color: #000;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+}
+
+#container input[type=button]{
+    text-align: center;
+    height: 40px;
+    border: none;
+    background: #FFC501;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
